@@ -1,0 +1,13 @@
+@import '../../../../assets/styles/variables.scss';
+
+.tv {
+  background-color: $white;
+  border-bottom: 3px solid $grey;
+}
+
+.tv__description {
+  text-align: justify;
+}
+.tv__delete-button {
+  align-self: flex-start;
+}

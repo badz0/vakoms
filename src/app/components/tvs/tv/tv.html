@@ -1,0 +1,11 @@
+<div class="tv" layout="row" layout-padding layout-align="space-between center">
+  <img flex="30"class="tv__img" ng-src="{{$ctrl.tv.img}}" alt="tv image">
+  <div flex class="tv__description-block">
+    <h3 class="tv__title" ng-bind="$ctrl.tv.title"></h3>
+    <p class="tv__description" ng-bind="$ctrl.tv.description"></p>
+    <h4 class="tv__price"><span ng-bind="$ctrl.tv.price"></span> грн</h4>
+  </div>
+  <md-button class="tv__delete-button md-icon-button" ng-click="$ctrl.delete()">
+    <md-icon md-svg-src="/assets/icons/close.svg" aria-label="delete button "></md-icon>
+  </md-button>
+</div>

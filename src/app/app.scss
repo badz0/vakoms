@@ -1,0 +1,11 @@
+@import '../assets/styles/variables.scss';
+
+html, body {
+   height: 100%;
+   font-size: 14px;
+}
+
+.app {
+  height: 100%;
+  background: $grey;
+}
