@@ -1,6 +1,1 @@
-To start the project:
-  in the server foler 'serve -C' (https://github.com/tj/serve)
-  then 'npm start' in the root
-
-For tests:
-  'npm test' in the root
+<h3> <a href="https://badz0.github.io/vakoms/">Vakoms test project</a> </h3>
